@@ -1,0 +1,73 @@
+<h1>Form action attribut</h1>
+<form action="Assignment1" target="_top">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname" >
+    <br><br>
+    <label for="lname" >last name:</label>
+    <input type="text" id="lname" name="lname">
+    <br>
+    <br>
+    <input type="reset">
+    <input type="submit">
+
+
+    </form>
+<hr><hr>
+
+
+    <h2>Method attributs get post</h2>
+    <p><b>Get and Post are 2 methods it is used for The form-data can be sent as URL variables is called get and post</b></p>
+
+    <form action="html4.html" method="post">
+        <input type="submit">
+    </form>
+    <p>the submitted form data is visible in the URL! is get</p>
+    <p>the submitted form data is not shown in the URL is post</p>
+    <hr><hr>
+    <h2>Autocomplete on off</h2>
+    <p>The autocomplete attribute specifies whether a form should have autocomplete on or off.</p>
+    <p>When autocomplete is on, the browser automatically complete values based on values that the user has entered before.</p>
+    <form action="Assigbment2" autocomplete="off">
+        <label>first name:</label>
+        <input type="text">
+        <input type="submit">
+    </form>
+    <hr><hr>
+    <h2>novalidate</h2>
+    <form action="Assignment1" novalidate>
+    <label>email:</label>
+    <input type="email">
+    <input type="submit">
+</form>
+<hr><hr>
+
+<h2>Fieldset and Legend</h2>
+<form>
+    <fieldset>
+        <legend>Sravanthi login</legend>
+        <label for="name">Name</label>
+        <input type="text" id="name">
+        <br><br>
+        <label for="last name">Last name</label>
+        <input type="text" id="last name"><br><br>
+        <input type="submit">
+
+    </fieldset>
+</form>
+<hr><hr>
+<h2>Datalist Element:</h2>
+<p>The datalist element specifies a list of pre-defined options for an input element.</p>
+<form action="Assignment1">
+<input list="browsers" name="browser">
+<datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+</form>
+<form></form>
+<label>Number</label>
+<input type="number" max="0" min="10" step="2">
+</form>
